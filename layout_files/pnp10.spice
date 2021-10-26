@@ -1,0 +1,36 @@
+* SPICE3 file created from pnp10.ext - technology: sky130A
+
+.option scale=5000u
+
+.subckt pnp10 vq1 vq2 vq3 gnd
+Xpnpt1_17 gnd gnd gnd pnpt1 m=1
+Xpnpt1_18 gnd gnd gnd pnpt1 m=1
+Xpnpt1_19 gnd gnd gnd pnpt1 m=1
+Xpnpt1_1 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_0 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_2 vq1 gnd gnd pnpt1 m=1
+Xpnpt1_3 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_4 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_5 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_6 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_7 vq3 gnd gnd pnpt1 m=1
+Xpnpt1_8 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_9 vq2 gnd gnd pnpt1 m=1
+Xpnpt1_20 gnd gnd gnd pnpt1 m=1
+Xpnpt1_21 gnd gnd gnd pnpt1 m=1
+Xpnpt1_10 gnd gnd gnd pnpt1 m=1
+Xpnpt1_22 gnd gnd gnd pnpt1 m=1
+Xpnpt1_11 gnd gnd gnd pnpt1 m=1
+Xpnpt1_23 gnd gnd gnd pnpt1 m=1
+Xpnpt1_12 gnd gnd gnd pnpt1 m=1
+Xpnpt1_13 gnd gnd gnd pnpt1 m=1
+Xpnpt1_24 gnd gnd gnd pnpt1 m=1
+Xpnpt1_15 gnd gnd gnd pnpt1 m=1
+Xpnpt1_26 gnd gnd gnd pnpt1 m=1
+Xpnpt1_14 gnd gnd gnd pnpt1 m=1
+Xpnpt1_25 gnd gnd gnd pnpt1 m=1
+Xpnpt1_16 gnd gnd gnd pnpt1 m=1
+Xpnpt1_27 gnd gnd gnd pnpt1 m=1
+C0 vq2 gnd 16.74fF
+C1 vq1 gnd 2.68fF
+.ends

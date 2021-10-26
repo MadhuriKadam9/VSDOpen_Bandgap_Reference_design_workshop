@@ -1,0 +1,19 @@
+timestamp 1633157399
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+parameters :pnpt1 m=1
+parameters sky130_fd_pr__pnp_05v0 a2=area
+port "Emitter" 1 554 626 802 730 li
+port "Base" 3 590 1102 708 1142 li
+port "Collector" 2 613 1252 714 1301 li
+node "Emitter" 209 743.66 554 626 li 0 0 0 0 0 0 0 0 0 0 462400 2720 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 481636 2776 372100 2440 0 0 0 0 0 0 0 0 0 0
+node "Base" 6269 3942.12 590 1102 li 0 0 0 0 0 0 0 0 256320 7120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 256320 7120 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "Collector" 0 0 613 1252 li 0 0 726444 9496 0 0 0 0 0 0 479548 9496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470844 9512 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Emitter" "Base" 1477.55
+device msubckt sky130_fd_pr__pnp_05v0 153 153 154 154 "None" "Base" 0 0 "Collector" 4136 0 "Emitter" 1000 0
+subcap "Emitter" -247.514
+subcap "Base" -3766.12
+subcap "Collector" -1301.3

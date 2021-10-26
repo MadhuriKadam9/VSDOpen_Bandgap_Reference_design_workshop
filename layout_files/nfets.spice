@@ -1,0 +1,36 @@
+* SPICE3 file created from nfets.ext - technology: sky130A
+
+.option scale=5000u
+
+X0 nfet_8/a_n60_0# nfet_30/a_0_n26# nfet_31/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X1 nfet_21/a_n60_0# nfet_20/a_0_n26# nfet_15/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X2 nfet_31/a_200_0# nfet_31/a_0_n26# nfet_31/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X3 nfet_22/a_200_0# nfet_22/a_0_n26# nfet_21/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X4 nfet_21/a_200_0# nfet_21/a_0_n26# nfet_21/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X5 nfet_11/a_200_0# nfet_11/a_0_n26# nfet_10/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X6 nfet_10/a_200_0# nfet_10/a_0_n26# nfet_9/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X7 nfet_23/a_200_0# nfet_23/a_0_n26# nfet_22/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X8 nfet_12/a_200_0# nfet_12/a_0_n26# nfet_11/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X9 nfet_24/a_200_0# nfet_24/a_0_n26# nfet_19/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X10 nfet_14/a_n60_0# nfet_13/a_0_n26# nfet_12/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X11 nfet_25/a_200_0# nfet_25/a_0_n26# nfet_24/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X12 nfet_14/a_200_0# nfet_14/a_0_n26# nfet_14/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X13 nfet_26/a_200_0# nfet_26/a_0_n26# nfet_23/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X14 nfet_15/a_200_0# nfet_15/a_0_n26# nfet_14/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X15 nfet_17/a_n60_0# nfet_16/a_0_n26# nfet_7/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X16 nfet_27/a_200_0# nfet_27/a_0_n26# nfet_26/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X17 nfet_17/a_200_0# nfet_17/a_0_n26# nfet_17/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X18 nfet_0/a_n60_0# nfet_28/a_0_n26# nfet_29/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X19 nfet_18/a_200_0# nfet_18/a_0_n26# nfet_17/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X20 nfet_29/a_200_0# nfet_29/a_0_n26# nfet_29/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X21 nfet_19/a_200_0# nfet_19/a_0_n26# nfet_18/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X22 nfet_0/a_200_0# nfet_0/a_0_n26# nfet_0/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X23 nfet_2/a_200_0# nfet_2/a_0_n26# nfet_1/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X24 nfet_1/a_200_0# nfet_1/a_0_n26# nfet_0/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X25 nfet_3/a_200_0# nfet_3/a_0_n26# nfet_2/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X26 nfet_4/a_200_0# nfet_4/a_0_n26# nfet_3/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X27 nfet_5/a_200_0# nfet_5/a_0_n26# nfet_4/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X28 nfet_6/a_200_0# nfet_6/a_0_n26# nfet_5/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X29 nfet_7/a_200_0# nfet_7/a_0_n26# nfet_6/a_200_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X30 nfet_9/a_n60_0# nfet_8/a_0_n26# nfet_8/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X31 nfet_9/a_200_0# nfet_9/a_0_n26# nfet_9/a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200

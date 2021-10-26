@@ -1,0 +1,8 @@
+| units: 500000 tech: sky130A format: MIT
+s a_88_252# gnd a_88_252# 1400 200 60 26
+s net6 a_88_252# net6 1400 200 1520 26
+C net6 GND 2.30
+R net6 666
+R gnd 2796
+C a_88_252# GND 2.69
+R a_88_252# 362

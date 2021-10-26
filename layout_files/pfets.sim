@@ -1,0 +1,31 @@
+| units: 500000 tech: sky130A format: MIT
+s net2 net6 pfet_1/a_n60_0# 400 1000 96 36
+s net2 pfet_1/a_n60_0# vdd 400 1000 556 36
+s net2 vdd vref 400 1000 1016 36
+s net2 vdd net1 400 1000 1936 36
+s net2 vref vdd 400 1000 1476 36
+s net2 net1 vdd 400 1000 2396 36
+s net2 vdd net2 400 1000 2856 36
+s net2 vdd net1 400 1000 4696 36
+s net2 net2 vdd 400 1000 3316 36
+s net2 net1 vdd 400 1000 5156 36
+s net2 vdd net2 400 1000 3776 36
+s net2 vdd vref 400 1000 5616 36
+s net2 net2 vdd 400 1000 4236 36
+s net2 vref vdd 400 1000 6076 36
+s vdd vdd net1 400 1000 6536 36
+s net6 net1 vdd 400 1000 6996 36
+s net6 vdd net1 400 1000 7456 36
+C net1 vref 8.07
+C net1 vdd 10.77
+C vdd vref 4.20
+C vdd net6 11.70
+C net2 net6 6.13
+R net1 1110
+R vref 590
+C net2 GND 4.81
+R net2 4732
+C vdd GND 112.12
+R vdd 21296
+R pfet_1/a_n60_0# 2624
+R net6 4066

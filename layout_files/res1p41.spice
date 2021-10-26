@@ -1,0 +1,5 @@
+* SPICE3 file created from res1p41.ext - technology: sky130A
+
+.option scale=5000u
+
+X0 a_0_n216# a_0_780# $SUB sky130_fd_pr__res_high_po w=282 l=1560

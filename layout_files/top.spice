@@ -1,0 +1,61 @@
+* SPICE3 file created from top.ext - technology: sky130A
+
+.option scale=5000u
+
+.subckt top vdd vref gnd
+X0 nfets_0/nfet_8/a_n60_0# nfets_0/nfet_30/a_0_n26# nfets_0/nfet_31/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X1 nfets_0/nfet_21/a_n60_0# nfets_0/nfet_20/a_0_n26# nfets_0/nfet_15/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X2 nfets_0/nfet_31/a_200_0# nfets_0/nfet_31/a_0_n26# nfets_0/nfet_31/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X3 nfets_0/nfet_22/a_200_0# nfets_0/nfet_22/a_0_n26# nfets_0/nfet_21/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X4 nfets_0/nfet_21/a_200_0# nfets_0/nfet_21/a_0_n26# nfets_0/nfet_21/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X5 nfets_0/nfet_11/a_200_0# nfets_0/nfet_11/a_0_n26# nfets_0/nfet_10/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X6 nfets_0/nfet_10/a_200_0# nfets_0/nfet_10/a_0_n26# nfets_0/nfet_9/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X7 nfets_0/nfet_23/a_200_0# nfets_0/nfet_23/a_0_n26# nfets_0/nfet_22/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X8 nfets_0/nfet_12/a_200_0# nfets_0/nfet_12/a_0_n26# nfets_0/nfet_11/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X9 nfets_0/nfet_24/a_200_0# nfets_0/nfet_24/a_0_n26# nfets_0/nfet_19/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X10 nfets_0/nfet_14/a_n60_0# nfets_0/nfet_13/a_0_n26# nfets_0/nfet_12/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X11 nfets_0/nfet_25/a_200_0# nfets_0/nfet_25/a_0_n26# nfets_0/nfet_24/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X12 nfets_0/nfet_14/a_200_0# nfets_0/nfet_14/a_0_n26# nfets_0/nfet_14/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X13 nfets_0/nfet_26/a_200_0# nfets_0/nfet_26/a_0_n26# nfets_0/nfet_23/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X14 nfets_0/nfet_15/a_200_0# nfets_0/nfet_15/a_0_n26# nfets_0/nfet_14/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X15 nfets_0/nfet_17/a_n60_0# nfets_0/nfet_16/a_0_n26# nfets_0/nfet_7/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X16 nfets_0/nfet_27/a_200_0# nfets_0/nfet_27/a_0_n26# nfets_0/nfet_26/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X17 nfets_0/nfet_17/a_200_0# nfets_0/nfet_17/a_0_n26# nfets_0/nfet_17/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X18 nfets_0/nfet_0/a_n60_0# nfets_0/nfet_28/a_0_n26# nfets_0/nfet_29/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X19 nfets_0/nfet_18/a_200_0# nfets_0/nfet_18/a_0_n26# nfets_0/nfet_17/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X20 nfets_0/nfet_29/a_200_0# nfets_0/nfet_29/a_0_n26# nfets_0/nfet_29/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X21 nfets_0/nfet_19/a_200_0# nfets_0/nfet_19/a_0_n26# nfets_0/nfet_18/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X22 nfets_0/nfet_0/a_200_0# nfets_0/nfet_0/a_0_n26# nfets_0/nfet_0/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X23 nfets_0/nfet_2/a_200_0# nfets_0/nfet_2/a_0_n26# nfets_0/nfet_1/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X24 nfets_0/nfet_1/a_200_0# nfets_0/nfet_1/a_0_n26# nfets_0/nfet_0/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X25 nfets_0/nfet_3/a_200_0# nfets_0/nfet_3/a_0_n26# nfets_0/nfet_2/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X26 nfets_0/nfet_4/a_200_0# nfets_0/nfet_4/a_0_n26# nfets_0/nfet_3/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X27 nfets_0/nfet_5/a_200_0# nfets_0/nfet_5/a_0_n26# nfets_0/nfet_4/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X28 nfets_0/nfet_6/a_200_0# nfets_0/nfet_6/a_0_n26# nfets_0/nfet_5/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X29 nfets_0/nfet_7/a_200_0# nfets_0/nfet_7/a_0_n26# nfets_0/nfet_6/a_200_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X30 nfets_0/nfet_9/a_n60_0# nfets_0/nfet_8/a_0_n26# nfets_0/nfet_8/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+X31 nfets_0/nfet_9/a_200_0# nfets_0/nfet_9/a_0_n26# nfets_0/nfet_9/a_n60_0# gnd sky130_fd_pr__nfet_01v8_lvt w=1000 l=200
+C0 qp1 vdd 18.43fF
+C1 resbank_0/li_4_n351# resbank_0/a_1083_n574# 6.20fF
+C2 qp1 vref 5.85fF
+C3 resbank_0/a_814_10# resbank_0/a_2156_996# 2.20fF
+C4 rp1 qp2 9.69fF
+C5 net6 net2 16.12fF
+C6 vref vdd 5.97fF
+C7 m1_9082_n14# qp2 5.85fF
+C8 resbank_0/a_2156_996# resbank_0/li_1618_996# 2.33fF
+C9 net1 vdd 14.50fF
+C10 qp1 qp3 13.88fF
+C11 net6 vdd 11.97fF
+C12 resbank_0/li_542_n1697# qp2 7.02fF
+C13 net1 vref 13.38fF
+C14 resbank_0/li_1348_n117# resbank_0/a_1083_n574# 4.78fF
+C15 rp1 resbank_0/a_1083_n574# 2.36fF
+C16 net2 rp1 7.56fF
+Xpfets_0 net1 vref net2 net6 vdd pfets
+Xstarternfet_0 net6 gnd starternfet
+Xresbank_0 gnd vref qp2 qp3 rp1 resbank
+Xpnp10_0 qp1 qp2 qp3 gnd pnp10
+C17 starternfet_0/a_88_252# gnd 2.69fF **FLOATING
+C18 vdd gnd 127.89fF
+.ends

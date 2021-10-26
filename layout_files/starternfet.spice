@@ -1,0 +1,10 @@
+* SPICE3 file created from starternfet.ext - technology: sky130A
+
+.option scale=5000u
+
+.subckt starternfet net6 gnd
+X0 a_88_252# a_88_252# gnd gnd sky130_fd_pr__nfet_01v8_lvt w=200 l=1400
+X1 net6 net6 a_88_252# gnd sky130_fd_pr__nfet_01v8_lvt w=200 l=1400
+C0 net6 gnd 2.30fF
+C1 a_88_252# gnd 2.69fF
+.ends

@@ -1,0 +1,35 @@
+| units: 500000 tech: sky130A format: MIT
+s gnd gnd gnd 0 0 2719 1439
+s gnd gnd gnd 0 0 4007 1439
+s gnd gnd gnd 0 0 5295 1439
+s gnd gnd vq2 0 0 1431 151
+s gnd gnd vq2 0 0 143 151
+s gnd gnd vq1 0 0 2719 151
+s gnd gnd vq2 0 0 4007 151
+s gnd gnd vq2 0 0 5295 151
+s gnd gnd vq2 0 0 143 -1137
+s gnd gnd vq2 0 0 1431 -1137
+s gnd gnd vq3 0 0 2719 -1137
+s gnd gnd vq2 0 0 4007 -1137
+s gnd gnd vq2 0 0 5295 -1137
+s gnd gnd gnd 0 0 6583 1439
+s gnd gnd gnd 0 0 6583 151
+s gnd gnd gnd 0 0 143 -2425
+s gnd gnd gnd 0 0 6583 -1137
+s gnd gnd gnd 0 0 1431 -2425
+s gnd gnd gnd 0 0 6583 -2425
+s gnd gnd gnd 0 0 2719 -2425
+s gnd gnd gnd 0 0 4007 -2425
+s gnd gnd gnd 0 0 -1145 -2425
+s gnd gnd gnd 0 0 143 1439
+s gnd gnd gnd 0 0 -1145 151
+s gnd gnd gnd 0 0 5295 -2425
+s gnd gnd gnd 0 0 -1145 -1137
+s gnd gnd gnd 0 0 1431 1439
+s gnd gnd gnd 0 0 -1145 1439
+R gnd 839279
+R vq3 209
+C vq2 GND 16.74
+R vq2 6271
+C vq1 GND 2.68
+R vq1 209

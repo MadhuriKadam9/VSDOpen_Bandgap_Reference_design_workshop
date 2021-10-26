@@ -1,0 +1,5 @@
+* SPICE3 file created from nfet.ext - technology: sky130A
+
+.option scale=5000u
+
+X0 a_200_0# a_0_n26# a_n60_0# $SUB sky130_fd_pr__nfet_01v8_lvt w=1000 l=200

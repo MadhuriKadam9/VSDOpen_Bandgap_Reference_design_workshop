@@ -1,0 +1,5 @@
+| units: 500000 tech: sky130A format: MIT
+s Base Collector Emitter 0 0 153 153
+R Emitter 209
+R Base 6269
+R Collector 97869

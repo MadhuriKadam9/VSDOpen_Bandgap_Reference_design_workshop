@@ -1,0 +1,204 @@
+timestamp 1635087882
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use nfets nfets_0 1 0 618 0 1 14760
+use starternfet starternfet_0 1 0 5062 0 1 12712
+use pnp10 pnp10_0 1 0 1272 0 1 2564
+use resbank resbank_0 1 0 1198 0 1 9204
+use pfets pfets_0 1 0 68 0 1 17396
+port "vref" 2 -348 19172 -348 19172 m1
+port "vdd" 1 -870 19176 -870 19176 m1
+port "vdd" 1 -850 19176 -850 19176 m1
+port "gnd" 3 9664 19152 9664 19152 m1
+node "m1_9082_n14#" 2 1853.2 9082 -14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 758000 7980 0 0 0 0 0 0 0 0 0 0
+node "li_9016_12#" 219 4923.99 9016 12 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 380460 5496 758000 7980 0 0 0 0 0 0 0 0 0 0
+node "qp2" 422 26137.7 1206 5576 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1347600 13876 2777272 28628 3486752 17188 0 0 0 0 0 0 0 0
+node "qp3" 27 10861 1232 5838 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32100 728 2379600 24596 3060684 14704 0 0 0 0 0 0 0 0
+node "li_1206_8736#" 411 5062.43 1206 8736 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1347600 13876 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1242_8992#" 18 228.397 1242 8992 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31672 724 0 0 0 0 0 0 0 0 0 0 0 0
+node "rp1" 85 13109.7 3358 8970 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 86400 1664 1916476 20368 2148800 22288 0 0 0 0 0 0 0 0
+node "li_4618_12880#" 40 492.389 4618 12880 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 95880 1468 0 0 0 0 0 0 0 0 0 0 0 0
+node "qp1" 26 12821.1 -202 16152 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46800 868 3320000 34000 2959244 12792 0 0 0 0 0 0 0 0
+node "net6" 541 13076.1 68 16960 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1638532 17320 1446000 15660 712400 7924 0 0 0 0 0 0 0 0
+node "net2" 80 17032.3 4480 12416 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100008 1772 1518800 16388 1687600 17676 0 0 0 0 0 0 0 0
+node "vref" 76 5976.78 -348 19172 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57008 1332 1578000 16980 507600 5876 0 0 0 0 0 0 0 0
+node "net1" 76 2814.39 -174 16424 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43268 1180 641600 7616 331600 4116 0 0 0 0 0 0 0 0
+node "vdd" 70 12077.9 -850 19176 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195200 2352 4221800 38820 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "vdd"
+node "w_68_18468#" 1789 114 68 18468 nw 0 0 0 0 38000 780 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 9664 19152 m1 0 0 18564 1636 0 0 0 0 0 0 12177600 121776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13371540 133612 3072068 31124 0 0 0 0 0 0 0 0 0 0
+cap "net1" "vref" 5388.63
+cap "net6" "rp1" 774.39
+cap "qp1" "vdd" 18411.8
+cap "qp2" "net2" 250
+cap "vref" "w_68_18468#" 35.15
+cap "qp1" "qp3" 13884.6
+cap "m1_9082_n14#" "rp1" 234.915
+cap "rp1" "li_1206_8736#" 269.824
+cap "net1" "qp1" 1461.17
+cap "vdd" "qp3" 1870.07
+cap "net2" "rp1" 7560.85
+cap "net1" "vdd" 3434
+cap "net6" "net2" 10118.6
+cap "vref" "qp1" 5854.54
+cap "m1_9082_n14#" "li_9016_12#" 1410.71
+cap "qp2" "rp1" 9688
+cap "li_1242_8992#" "li_1206_8736#" 126.107
+cap "vref" "vdd" 1509.61
+cap "qp2" "qp3" 113.903
+cap "vref" "qp3" 225
+cap "qp2" "m1_9082_n14#" 5851.95
+cap "qp2" "li_9016_12#" 5065.35
+subcap "li_9016_12#" -387.338
+subcap "m1_9082_n14#" -1240.88
+cap "pnp10_0/pnpt1_23/Emitter" "m1_9082_n14#" 2.84217e-14
+cap "pnp10_0/pnpt1_25/Emitter" "qp3" 351.917
+cap "qp3" "pnp10_0/gnd" -2000.43
+cap "qp3" "pnp10_0/pnpt1_5/Emitter" 324.11
+cap "qp3" "pnp10_0/gnd" 485.26
+cap "pnp10_0/pnpt1_5/Emitter" "qp3" -497.82
+cap "pnp10_0/pnpt1_6/Emitter" "pnp10_0/vq3" -3842.31
+cap "pnp10_0/vq3" "pnp10_0/pnpt1_6/Collector" 742.642
+cap "pnp10_0/pnpt1_9/Emitter" "pnp10_0/pnpt1_9/Collector" 2332.09
+cap "m1_9082_n14#" "pnp10_0/pnpt1_22/Emitter" -35
+cap "qp2" "pnp10_0/pnpt1_22/Emitter" -6794.67
+cap "pnp10_0/pnpt1_25/Collector" "qp1" 351.917
+cap "pnp10_0/gnd" "qp1" -2000.43
+cap "pnp10_0/pnpt1_0/Emitter" "qp1" 324.11
+cap "qp1" "pnp10_0/gnd" 485.26
+cap "qp1" "pnp10_0/pnpt1_0/Emitter" -497.82
+cap "pnp10_0/pnpt1_6/Collector" "pnp10_0/vq1" 742.642
+cap "pnp10_0/pnpt1_1/Emitter" "pnp10_0/vq1" -3842.31
+cap "pnp10_0/pnpt1_4/Emitter" "pnp10_0/pnpt1_9/Collector" 2332.09
+cap "m1_9082_n14#" "pnp10_0/pnpt1_22/Collector" -35
+cap "qp2" "pnp10_0/pnpt1_22/Collector" -6654.32
+subcap "qp2" -26226.2
+cap "pnp10_0/pnpt1_21/Collector" "rp1" 5.68434e-14
+cap "qp2" "pnp10_0/pnpt1_21/Collector" 1.42109e-14
+subcap "qp2" -25777
+subcap "qp3" -10025
+cap "pnp10_0/pnpt1_15/Collector" "resbank_0/qp3" 256
+cap "resbank_0/qp2" "resbank_0/qp3" -113.903
+subcap "qp3" -8675.9
+cap "pnp10_0/pnpt1_19/Collector" "resbank_0/qp2" 256
+subcap "li_1206_8736#" -4701.67
+cap "resbank_0/a_2166_n1148#" "resbank_0/rp1" -126.107
+subcap "rp1" -12506.3
+subcap "rp1" -11650.5
+cap "resbank_0/rp1" "resbank_0/a_2166_n1148#" 98.1176
+cap "resbank_0/rp1" "resbank_0/li_2696_n234#" 122.32
+cap "rp1" "resbank_0/a_2166_n1148#" 473.88
+cap "rp1" "resbank_0/res1p41_7/a_0_n432#" 140.94
+cap "resbank_0/res1p41_9/a_0_n432#" "rp1" 194.52
+cap "rp1" "resbank_0/res1p41_24/a_0_1560#" 439.04
+cap "rp1" "resbank_0/li_2696_n234#" -29.22
+cap "resbank_0/gnd" "rp1" 256
+cap "resbank_0/gnd" "resbank_0/vref" 256
+subcap "net2" -16995.2
+subcap "net2" -17282.9
+cap "net2" "resbank_0/a_4312_1992#" 6.29063
+cap "resbank_0/gnd" "net2" 25.1625
+cap "resbank_0/gnd" "rp1" 8.35855
+cap "resbank_0/gnd" "resbank_0/a_4312_1992#" 45.375
+cap "resbank_0/a_4312_1992#" "resbank_0/gnd" 61.4362
+cap "resbank_0/gnd" "resbank_0/a_4312_1992#" 31.6835
+subcap "li_4618_12880#" -998.262
+subcap "net2" -17091.6
+cap "starternfet_0/gnd" "nfets_0/nfet_27/a_200_0#" 12.5865
+subcap "net2" -16483.4
+cap "net2" "starternfet_0/gnd" 747.668
+cap "net2" "resbank_0/a_4312_1992#" 6.29063
+cap "starternfet_0/nfet1_0/a_0_n26#" "rp1" 237.19
+cap "starternfet_0/gnd" "resbank_0/a_4312_1992#" 45.375
+cap "starternfet_0/gnd" "rp1" 846.075
+cap "nfets_0/nfet_27/a_200_0#" "starternfet_0/gnd" 12.5865
+cap "resbank_0/gnd" "net2" 496.15
+cap "resbank_0/gnd" "resbank_0/a_4312_1992#" 61.4362
+cap "resbank_0/gnd" "rp1" 368.47
+cap "rp1" "starternfet_0/nfet1_0/a_0_n26#" 102.234
+cap "rp1" "starternfet_0/nfet1_1/a_0_n26#" 216.982
+cap "resbank_0/a_4312_1992#" "starternfet_0/gnd" 31.6835
+cap "rp1" "starternfet_0/net6" 122.442
+cap "starternfet_0/net6" "starternfet_0/gnd" 275.08
+cap "net2" "starternfet_0/gnd" 304.917
+cap "rp1" "starternfet_0/gnd" 337.37
+subcap "qp1" -11503.8
+subcap "net1" -2313.07
+cap "pfets_0/vdd" "net1" 15.2022
+cap "qp1" "pfets_0/vdd" 8.87097
+subcap "net1" -2950.07
+subcap "qp1" -13517.9
+subcap "net6" -12887.1
+subcap "net1" -2007.18
+cap "pfets_0/vdd" "net1" 33
+cap "vref" "pfets_0/net6" 125.339
+cap "pfets_0/vdd" "qp1" 8.87097
+subcap "net6" -12481.3
+subcap "net1" -2811.16
+cap "pfets_0/net2" "pfets_0/vdd" 243.42
+cap "pfets_0/vdd" "pfets_0/net2" 11.4
+cap "pfets_0/net6" "pfets_0/net2" -330.817
+cap "net2" "pfets_0/vdd" 42.67
+cap "pfets_0/net6" "net2" 205.325
+cap "pfets_0/net1" "pfets_0/net6" 7.94118
+cap "pfets_0/net6" "pfets_0/vdd" 269.68
+subcap "vref" -5023.86
+cap "pfets_0/vdd" "pfets_0/net1" 269.68
+cap "pfets_0/pfet_0/a_n60_0#" "pfets_0/net1" 7.94118
+cap "pfets_0/vdd" "gnd" 82.5
+cap "pfets_0/vdd" "pfets_0/vref" 241.19
+cap "pfets_0/pfet_0/a_n60_0#" "pfets_0/vref" 121.78
+cap "pfets_0/net1" "gnd" 3.62567
+cap "pfets_0/vref" "pfets_0/net1" -66
+cap "pfets_0/net1" "pfets_0/vdd" -11.9842
+cap "pfets_0/net1" "pfets_0/vref" -7
+cap "pfets_0/vref" "pfets_0/vdd" -18.6442
+cap "gnd" "pfets_0/net1" 146.734
+cap "gnd" "pfets_0/vdd" 607.895
+cap "pfets_0/vdd" "gnd" 607.895
+cap "gnd" "pfets_0/pfet_5/a_n60_0#" 148.077
+cap "gnd" "pfets_0/vdd" 607.895
+cap "pfets_0/net1" "gnd" 148.077
+cap "pfets_0/net1" "gnd" 148.077
+cap "pfets_0/vdd" "gnd" 607.895
+cap "gnd" "pfets_0/net1" 148.077
+cap "pfets_0/vdd" "gnd" 607.895
+cap "gnd" "pfets_0/vdd" 448.974
+cap "pfets_0/net1" "gnd" 84.4038
+subcap "vref" -5998.88
+merge "pfets_0/vref" "resbank_0/vref" -3680.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -112592 -1332 -691200 -11200 0 0 0 0 0 0 0 0 0 0
+merge "resbank_0/vref" "vref"
+merge "resbank_0/a_2166_n1148#" "li_1206_8736#" -5062.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1347600 -13876 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pfets_0/net6" "starternfet_0/net6" -9158.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1541652 -17320 -469356 -7118 -146640 -2836 0 0 0 0 0 0 0 0
+merge "starternfet_0/net6" "net6"
+merge "resbank_0/rp1" "li_1242_8992#" -4168.73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25668 -1664 -71064 -2042 1694450 -18482 0 0 0 0 0 0 0 0
+merge "li_1242_8992#" "rp1"
+merge "pfets_0/$SUB" "nfets_0/$SUB" -9449.15 0 0 0 0 0 0 0 0 0 0 -883564 -20232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1059820 -24422 -121584 -2562 0 0 0 0 0 0 0 0 0 0
+merge "nfets_0/$SUB" "starternfet_0/gnd"
+merge "starternfet_0/gnd" "pnp10_0/pnpt1_20/Collector"
+merge "pnp10_0/pnpt1_20/Collector" "pnp10_0/pnpt1_19/Collector"
+merge "pnp10_0/pnpt1_19/Collector" "pnp10_0/pnpt1_21/Collector"
+merge "pnp10_0/pnpt1_21/Collector" "pnp10_0/pnpt1_4/Collector"
+merge "pnp10_0/pnpt1_4/Collector" "resbank_0/gnd"
+merge "resbank_0/gnd" "pnp10_0/pnpt1_22/Collector"
+merge "pnp10_0/pnpt1_22/Collector" "pnp10_0/pnpt1_22/Emitter"
+merge "pnp10_0/pnpt1_22/Emitter" "pnp10_0/pnpt1_9/Collector"
+merge "pnp10_0/pnpt1_9/Collector" "pnp10_0/pnpt1_23/Emitter"
+merge "pnp10_0/pnpt1_23/Emitter" "pnp10_0/pnpt1_14/Emitter"
+merge "pnp10_0/pnpt1_14/Emitter" "pnp10_0/$SUB"
+merge "pnp10_0/$SUB" "gnd"
+merge "gnd" "li_9016_12#"
+merge "li_9016_12#" "li_4618_12880#"
+merge "pnp10_0/vq1" "qp1" -184.844 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30372 -868 -81192 -3401 -1426168 -10330 0 0 0 0 0 0 0 0
+merge "resbank_0/qp3" "pnp10_0/vq3" 497.919 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -90600 -728 -681491 -8855 1232848 -2682 0 0 0 0 0 0 0 0
+merge "pnp10_0/vq3" "qp3"
+merge "pfets_0/net1" "net1" -196.377 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40296 -568 20570 0 0 0 0 0 0 0 0 0 0 0
+merge "pfets_0/net2" "net2" -3028.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39120 -1200 -337612 -5284 -434800 -4548 0 0 0 0 0 0 0 0
+merge "resbank_0/qp2" "pnp10_0/pnpt1_4/Emitter" -14037.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 202140 -13876 -1126679 -13339 1499376 -6274 0 0 0 0 0 0 0 0
+merge "pnp10_0/pnpt1_4/Emitter" "pnp10_0/pnpt1_9/Emitter"
+merge "pnp10_0/pnpt1_9/Emitter" "qp2"
+merge "pfets_0/vdd" "w_68_18468#" -580.323 0 0 0 0 -38000 -780 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -265636 -800 0 0 0 0 0 0 0 0 0 0 0 0
+merge "w_68_18468#" "vdd"

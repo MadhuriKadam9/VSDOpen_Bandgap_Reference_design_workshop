@@ -1,0 +1,266 @@
+| units: 500000 tech: sky130A format: MIT
+s net2 net6 pfets_0/pfet_1/a_n60_0# 400 1000 164 17432
+s net2 pfets_0/pfet_1/a_n60_0# vdd 400 1000 624 17432
+s net2 vdd vref 400 1000 1084 17432
+s net2 vdd net1 400 1000 2004 17432
+s net2 vref vdd 400 1000 1544 17432
+s net2 net1 vdd 400 1000 2464 17432
+s net2 vdd net2 400 1000 2924 17432
+s net2 vdd net1 400 1000 4764 17432
+s net2 net2 vdd 400 1000 3384 17432
+s net2 net1 vdd 400 1000 5224 17432
+s net2 vdd net2 400 1000 3844 17432
+s net2 vdd vref 400 1000 5684 17432
+s net2 net2 vdd 400 1000 4304 17432
+s net2 vref vdd 400 1000 6144 17432
+s vdd vdd net1 400 1000 6604 17432
+s net6 net1 vdd 400 1000 7064 17432
+s net6 vdd net1 400 1000 7524 17432
+s starternfet_0/a_88_252# gnd starternfet_0/a_88_252# 1400 200 5122 12738
+s net6 starternfet_0/a_88_252# net6 1400 200 6582 12738
+s nfets_0/nfet_30/a_0_n26# nfets_0/nfet_31/a_200_0# nfets_0/nfet_8/a_n60_0# 200 1000 418 13206
+s nfets_0/nfet_20/a_0_n26# nfets_0/nfet_15/a_200_0# nfets_0/nfet_21/a_n60_0# 200 1000 2758 13206
+s nfets_0/nfet_31/a_0_n26# nfets_0/nfet_31/a_n60_0# nfets_0/nfet_31/a_200_0# 200 1000 158 13206
+s nfets_0/nfet_22/a_0_n26# nfets_0/nfet_21/a_200_0# nfets_0/nfet_22/a_200_0# 200 1000 3278 13206
+s nfets_0/nfet_21/a_0_n26# nfets_0/nfet_21/a_n60_0# nfets_0/nfet_21/a_200_0# 200 1000 3018 13206
+s nfets_0/nfet_11/a_0_n26# nfets_0/nfet_10/a_200_0# nfets_0/nfet_11/a_200_0# 200 1000 1458 13206
+s nfets_0/nfet_10/a_0_n26# nfets_0/nfet_9/a_200_0# nfets_0/nfet_10/a_200_0# 200 1000 1198 13206
+s nfets_0/nfet_23/a_0_n26# nfets_0/nfet_22/a_200_0# nfets_0/nfet_23/a_200_0# 200 1000 3538 13206
+s nfets_0/nfet_12/a_0_n26# nfets_0/nfet_11/a_200_0# nfets_0/nfet_12/a_200_0# 200 1000 1718 13206
+s nfets_0/nfet_24/a_0_n26# nfets_0/nfet_19/a_200_0# nfets_0/nfet_24/a_200_0# 200 1000 3798 14786
+s nfets_0/nfet_13/a_0_n26# nfets_0/nfet_12/a_200_0# nfets_0/nfet_14/a_n60_0# 200 1000 1978 13206
+s nfets_0/nfet_25/a_0_n26# nfets_0/nfet_24/a_200_0# nfets_0/nfet_25/a_200_0# 200 1000 4058 14786
+s nfets_0/nfet_14/a_0_n26# nfets_0/nfet_14/a_n60_0# nfets_0/nfet_14/a_200_0# 200 1000 2238 13206
+s nfets_0/nfet_26/a_0_n26# nfets_0/nfet_23/a_200_0# nfets_0/nfet_26/a_200_0# 200 1000 3798 13206
+s nfets_0/nfet_15/a_0_n26# nfets_0/nfet_14/a_200_0# nfets_0/nfet_15/a_200_0# 200 1000 2498 13206
+s nfets_0/nfet_16/a_0_n26# nfets_0/nfet_7/a_200_0# nfets_0/nfet_17/a_n60_0# 200 1000 2758 14786
+s nfets_0/nfet_27/a_0_n26# nfets_0/nfet_26/a_200_0# nfets_0/nfet_27/a_200_0# 200 1000 4058 13206
+s nfets_0/nfet_17/a_0_n26# nfets_0/nfet_17/a_n60_0# nfets_0/nfet_17/a_200_0# 200 1000 3018 14786
+s nfets_0/nfet_28/a_0_n26# nfets_0/nfet_29/a_200_0# nfets_0/nfet_0/a_n60_0# 200 1000 418 14786
+s nfets_0/nfet_18/a_0_n26# nfets_0/nfet_17/a_200_0# nfets_0/nfet_18/a_200_0# 200 1000 3278 14786
+s nfets_0/nfet_29/a_0_n26# nfets_0/nfet_29/a_n60_0# nfets_0/nfet_29/a_200_0# 200 1000 158 14786
+s nfets_0/nfet_19/a_0_n26# nfets_0/nfet_18/a_200_0# nfets_0/nfet_19/a_200_0# 200 1000 3538 14786
+s nfets_0/nfet_0/a_0_n26# nfets_0/nfet_0/a_n60_0# nfets_0/nfet_0/a_200_0# 200 1000 678 14786
+s nfets_0/nfet_2/a_0_n26# nfets_0/nfet_1/a_200_0# nfets_0/nfet_2/a_200_0# 200 1000 1198 14786
+s nfets_0/nfet_1/a_0_n26# nfets_0/nfet_0/a_200_0# nfets_0/nfet_1/a_200_0# 200 1000 938 14786
+s nfets_0/nfet_3/a_0_n26# nfets_0/nfet_2/a_200_0# nfets_0/nfet_3/a_200_0# 200 1000 1458 14786
+s nfets_0/nfet_4/a_0_n26# nfets_0/nfet_3/a_200_0# nfets_0/nfet_4/a_200_0# 200 1000 1718 14786
+s nfets_0/nfet_5/a_0_n26# nfets_0/nfet_4/a_200_0# nfets_0/nfet_5/a_200_0# 200 1000 1978 14786
+s nfets_0/nfet_6/a_0_n26# nfets_0/nfet_5/a_200_0# nfets_0/nfet_6/a_200_0# 200 1000 2238 14786
+s nfets_0/nfet_7/a_0_n26# nfets_0/nfet_6/a_200_0# nfets_0/nfet_7/a_200_0# 200 1000 2498 14786
+s nfets_0/nfet_8/a_0_n26# nfets_0/nfet_8/a_n60_0# nfets_0/nfet_9/a_n60_0# 200 1000 678 13206
+s nfets_0/nfet_9/a_0_n26# nfets_0/nfet_9/a_n60_0# nfets_0/nfet_9/a_200_0# 200 1000 938 13206
+s resbank_0/res1p41_2/a_0_0# resbank_0/li_273_0# resbank_0/li_542_996# 1560 282 1740 9420
+s resbank_0/res1p41_3/a_0_0# resbank_0/a_814_10# resbank_0/li_542_996# 1560 282 2009 9420
+s resbank_0/res1p41_4/a_0_0# rp1 resbank_0/a_2156_996# 1560 282 2278 9420
+s resbank_0/res1p41_5/a_0_0# resbank_0/li_1349_0# resbank_0/a_814_10# 1560 282 2547 9420
+s resbank_0/res1p41_6/a_0_0# resbank_0/li_1349_0# resbank_0/li_1618_996# 1560 282 2816 9420
+s resbank_0/res1p41_8/a_0_0# resbank_0/a_1083_n574# resbank_0/a_2156_996# 1560 282 3354 9420
+s resbank_0/res1p41_7/a_0_0# resbank_0/li_1348_n117# resbank_0/li_1618_996# 1560 282 3085 9420
+s resbank_0/res1p41_9/a_0_0# resbank_0/li_1348_n117# resbank_0/li_2425_996# 1560 282 3623 9420
+s resbank_0/res1p41_20/a_0_0# resbank_0/li_542_n1697# resbank_0/li_1618_n584# 1560 282 3085 7840
+s resbank_0/res1p41_11/a_0_0# resbank_0/li_2694_0# resbank_0/li_2552_1229# 1560 282 4161 9420
+s resbank_0/res1p41_10/a_0_0# resbank_0/li_2694_0# resbank_0/li_2425_996# 1560 282 3892 9420
+s resbank_0/res1p41_21/a_0_0# qp2 resbank_0/a_1083_n574# 1560 282 3354 7840
+s resbank_0/res1p41_22/a_0_0# resbank_0/li_542_n1697# resbank_0/li_2425_n584# 1560 282 3623 7840
+s resbank_0/res1p41_12/a_0_0# resbank_0/res1p41_12/$SUB resbank_0/res1p41_12/$SUB 1560 282 4430 9420
+s resbank_0/res1p41_23/a_0_0# resbank_0/li_2835_n1580# resbank_0/li_2425_n584# 1560 282 3892 7840
+s resbank_0/res1p41_24/a_0_0# resbank_0/li_2835_n1580# resbank_0/li_2552_1229# 1560 282 4161 7840
+s resbank_0/res1p41_13/a_0_0# resbank_0/res1p41_13/$SUB resbank_0/res1p41_24/$SUB 1560 282 1202 7840
+s resbank_0/res1p41_25/a_0_0# resbank_0/res1p41_25/$SUB resbank_0/res1p41_24/$SUB 1560 282 4430 7840
+s resbank_0/res1p41_14/a_0_0# qp3 resbank_0/li_273_n584# 1560 282 1471 7840
+s resbank_0/res1p41_15/a_0_0# qp3 resbank_0/li_273_n584# 1560 282 1740 7840
+s resbank_0/res1p41_16/a_0_0# qp3 resbank_0/li_4_n351# 1560 282 2009 7840
+s resbank_0/res1p41_17/a_0_0# qp2 resbank_0/a_1083_n574# 1560 282 2278 7840
+s resbank_0/res1p41_18/a_0_0# resbank_0/li_1349_n1580# resbank_0/li_4_n351# 1560 282 2547 7840
+s resbank_0/res1p41_19/a_0_0# resbank_0/li_1349_n1580# resbank_0/li_1618_n584# 1560 282 2816 7840
+s resbank_0/res1p41_0/a_0_0# resbank_0/res1p41_0/$SUB resbank_0/res1p41_12/$SUB 1560 282 1202 9420
+s resbank_0/res1p41_1/a_0_0# resbank_0/li_273_0# vref 1560 282 1471 9420
+s gnd gnd gnd 0 0 4144 4156
+s gnd gnd gnd 0 0 5432 4156
+s gnd gnd gnd 0 0 6720 4156
+s gnd gnd qp2 0 0 2856 2868
+s gnd gnd qp2 0 0 1568 2868
+s gnd gnd qp1 0 0 4144 2868
+s gnd gnd qp2 0 0 5432 2868
+s gnd gnd qp2 0 0 6720 2868
+s gnd gnd qp2 0 0 1568 1580
+s gnd gnd qp2 0 0 2856 1580
+s gnd gnd qp3 0 0 4144 1580
+s gnd gnd qp2 0 0 5432 1580
+s gnd gnd qp2 0 0 6720 1580
+s gnd gnd gnd 0 0 8008 4156
+s gnd gnd gnd 0 0 8008 2868
+s gnd gnd gnd 0 0 1568 292
+s gnd gnd gnd 0 0 8008 1580
+s gnd gnd gnd 0 0 2856 292
+s gnd gnd gnd 0 0 8008 292
+s gnd gnd gnd 0 0 4144 292
+s gnd gnd gnd 0 0 5432 292
+s gnd gnd gnd 0 0 280 292
+s gnd gnd gnd 0 0 1568 4156
+s gnd gnd gnd 0 0 280 2868
+s gnd gnd gnd 0 0 6720 292
+s gnd gnd gnd 0 0 280 1580
+s gnd gnd gnd 0 0 2856 4156
+s gnd gnd gnd 0 0 280 4156
+C vref net1 13.38
+C qp2 resbank_0/li_542_n1697# 7.02
+C rp1 resbank_0/a_1083_n574# 2.36
+C net2 net6 16.12
+C qp1 vdd 18.43
+C vref qp1 5.85
+C vdd net6 11.97
+C qp1 qp3 13.88
+C m1_9082_n14# qp2 5.85
+C resbank_0/a_814_10# resbank_0/a_2156_996# 2.20
+C vref vdd 5.97
+C resbank_0/a_1083_n574# resbank_0/li_4_n351# 6.20
+C net2 rp1 7.56
+C resbank_0/li_1618_996# resbank_0/a_2156_996# 2.33
+C resbank_0/li_1348_n117# resbank_0/a_1083_n574# 4.78
+C rp1 qp2 9.69
+C net1 vdd 14.50
+R li_1206_8736# 411
+R gnd 230298
+R qp2 6289
+R qp1 219
+R qp3 317
+R resbank_0/res1p41_1/a_0_0# 1769
+R resbank_0/res1p41_1/$SUB 16130
+R resbank_0/res1p41_0/a_0_0# 1769
+R resbank_0/res1p41_0/$SUB 16206
+R resbank_0/res1p41_19/a_0_0# 1769
+R resbank_0/res1p41_19/$SUB 16130
+R resbank_0/li_1349_n1580# 12
+R resbank_0/res1p41_18/a_0_0# 1769
+R resbank_0/res1p41_18/$SUB 16130
+R resbank_0/res1p41_17/a_0_0# 1769
+R resbank_0/res1p41_17/$SUB 16130
+R resbank_0/res1p41_16/a_0_0# 1769
+R resbank_0/li_4_n351# 104
+R resbank_0/res1p41_16/$SUB 16130
+R resbank_0/res1p41_15/a_0_0# 1769
+R resbank_0/res1p41_15/$SUB 16130
+R resbank_0/res1p41_14/a_0_0# 1769
+R resbank_0/res1p41_14/$SUB 16130
+R resbank_0/res1p41_25/a_0_0# 1769
+R resbank_0/res1p41_25/$SUB 16206
+R resbank_0/res1p41_13/a_0_0# 1769
+R resbank_0/res1p41_24/$SUB 16309
+R resbank_0/res1p41_13/$SUB 16206
+R resbank_0/res1p41_24/a_0_0# 1769
+R resbank_0/li_2552_1229# 170
+R resbank_0/li_2835_n1580# 39
+R resbank_0/res1p41_23/a_0_0# 1769
+R resbank_0/res1p41_23/$SUB 16130
+R resbank_0/res1p41_12/a_0_0# 1769
+R resbank_0/res1p41_22/a_0_0# 1769
+R resbank_0/res1p41_22/$SUB 16130
+R resbank_0/res1p41_21/a_0_0# 1769
+R resbank_0/res1p41_21/$SUB 16130
+R resbank_0/res1p41_10/a_0_0# 1769
+R resbank_0/res1p41_10/$SUB 16130
+R resbank_0/res1p41_11/a_0_0# 1769
+R resbank_0/res1p41_11/$SUB 16130
+R resbank_0/li_542_n1697# 389
+R resbank_0/res1p41_20/a_0_0# 1769
+R resbank_0/res1p41_20/$SUB 16130
+R resbank_0/res1p41_9/a_0_0# 1769
+R resbank_0/li_2425_996# 12
+R resbank_0/res1p41_9/$SUB 16130
+R resbank_0/li_1348_n117# 364
+R resbank_0/res1p41_7/a_0_0# 1769
+R resbank_0/res1p41_7/$SUB 16130
+R resbank_0/res1p41_8/a_0_0# 1769
+R resbank_0/res1p41_8/$SUB 16130
+R resbank_0/res1p41_6/a_0_0# 1769
+R resbank_0/li_1618_996# 71
+R resbank_0/res1p41_6/$SUB 16130
+R resbank_0/li_1349_0# 12
+R resbank_0/res1p41_5/a_0_0# 1769
+R resbank_0/res1p41_5/$SUB 16130
+R rp1 54
+R resbank_0/res1p41_4/a_0_0# 1769
+R resbank_0/res1p41_4/$SUB 16130
+R resbank_0/a_814_10# 875
+R resbank_0/res1p41_3/a_0_0# 1769
+R resbank_0/res1p41_3/$SUB 16130
+R resbank_0/res1p41_2/a_0_0# 1769
+R resbank_0/li_542_996# 57
+R resbank_0/res1p41_2/$SUB 16130
+R nfets_0/nfet_9/a_0_n26# 254
+R nfets_0/nfet_9/a_n60_0# 1199
+R nfets_0/nfet_8/a_n60_0# 1199
+R nfets_0/nfet_8/a_0_n26# 254
+R nfets_0/nfet_6/a_200_0# 349
+R nfets_0/nfet_7/a_0_n26# 254
+R nfets_0/nfet_5/a_200_0# 1549
+R nfets_0/nfet_6/a_0_n26# 254
+R nfets_0/nfet_4/a_200_0# 1549
+R nfets_0/nfet_5/a_0_n26# 254
+R nfets_0/nfet_3/a_200_0# 181
+R nfets_0/nfet_4/a_0_n26# 254
+R nfets_0/nfet_2/a_200_0# 494
+R nfets_0/nfet_3/a_0_n26# 254
+R nfets_0/nfet_0/a_200_0# 1549
+R nfets_0/nfet_1/a_0_n26# 254
+R nfets_0/nfet_1/a_200_0# 147
+R nfets_0/nfet_2/a_0_n26# 254
+R nfets_0/nfet_0/a_n60_0# 1549
+R nfets_0/nfet_0/a_0_n26# 254
+R nfets_0/nfet_18/a_200_0# 1549
+R nfets_0/nfet_19/a_0_n26# 254
+R nfets_0/nfet_29/a_n60_0# 2339
+R nfets_0/nfet_29/a_0_n26# 254
+R nfets_0/nfet_17/a_200_0# 144
+R nfets_0/nfet_18/a_0_n26# 254
+R nfets_0/nfet_29/a_200_0# 1549
+R nfets_0/nfet_28/a_0_n26# 254
+R nfets_0/nfet_17/a_0_n26# 254
+R nfets_0/nfet_27/a_200_0# 2339
+R nfets_0/nfet_26/a_200_0# 201
+R nfets_0/nfet_27/a_0_n26# 254
+R nfets_0/nfet_17/a_n60_0# 350
+R nfets_0/nfet_7/a_200_0# 188
+R nfets_0/nfet_16/a_0_n26# 254
+R nfets_0/nfet_14/a_200_0# 301
+R nfets_0/nfet_15/a_0_n26# 254
+R nfets_0/nfet_23/a_200_0# 1199
+R nfets_0/nfet_26/a_0_n26# 254
+R nfets_0/nfet_14/a_0_n26# 254
+R nfets_0/nfet_25/a_200_0# 2339
+R nfets_0/nfet_24/a_200_0# 159
+R nfets_0/nfet_25/a_0_n26# 254
+R nfets_0/nfet_14/a_n60_0# 1199
+R nfets_0/nfet_12/a_200_0# 1199
+R nfets_0/nfet_13/a_0_n26# 254
+R nfets_0/nfet_19/a_200_0# 1549
+R nfets_0/nfet_24/a_0_n26# 254
+R nfets_0/nfet_11/a_200_0# 221
+R nfets_0/nfet_12/a_0_n26# 254
+R nfets_0/nfet_22/a_200_0# 1199
+R nfets_0/nfet_23/a_0_n26# 254
+R nfets_0/nfet_9/a_200_0# 190
+R nfets_0/nfet_10/a_0_n26# 254
+R nfets_0/nfet_10/a_200_0# 567
+R nfets_0/nfet_11/a_0_n26# 254
+R nfets_0/nfet_21/a_0_n26# 254
+R nfets_0/nfet_21/a_200_0# 187
+R nfets_0/nfet_22/a_0_n26# 254
+R nfets_0/nfet_31/a_n60_0# 2339
+R nfets_0/nfet_31/a_0_n26# 254
+R nfets_0/nfet_21/a_n60_0# 461
+R nfets_0/nfet_15/a_200_0# 227
+R nfets_0/nfet_20/a_0_n26# 254
+R nfets_0/nfet_31/a_200_0# 1199
+R nfets_0/nfet_30/a_0_n26# 254
+C starternfet_0/a_88_252# GND 2.69
+R starternfet_0/a_88_252# 362
+R net1 1141
+R vref 649
+R net2 4727
+C vdd GND 127.89
+R vdd 21404
+R pfets_0/pfet_1/a_n60_0# 2624
+R net6 4833
