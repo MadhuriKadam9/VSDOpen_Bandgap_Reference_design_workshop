@@ -42,7 +42,7 @@ The Bandgap Reference (BGR) is a circuit which gives a constantv DC output volta
   - [2.2 Types of BGR](#2.2-Types-of-BGR)
   - [2.3 Self-biased Current Mirror based BGR](#2.3-Self-biased-current-mirror-based-bgr)
 - [3. Design and Prelayout Simulation](#3-Design-and-Prelayout-Simulation)
-- [Layout Design](#Layout-design)
+- [4. Layout Design](#Layout-design)
 
 
 
@@ -439,7 +439,10 @@ I would like to thank Prof. [Santunu Sarangi](https://in.linkedin.com/in/santunu
 
 ## References
 https://github.com/google/skywater-pdk
+
 https://skywater-pdk.readthedocs.io/en/latest/rules.html
+
 https://github.com/RTimothyEdwards/netgen.git
+
 https://github.com/vsdip/vsdopen2021_bgr.git
 
